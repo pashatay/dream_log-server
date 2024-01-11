@@ -7,5 +7,5 @@ module.exports = {
     process.env.TEST_DATABASE_URL ||
     "postgresql://postgres@localhost/dreamlog-test",
   JWT_KEY: process.env.JWT_KEY || "Newyork",
-  EMAIL_PASSWORD: process.env.EMAIL_PASSWORD || "76Jy8.9Ioo"
+  EMAIL_PASSWORD: process.env.EMAIL_PASSWORD || "76Jy8.9Ioo",
 };
